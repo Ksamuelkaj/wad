@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samuel's JavaScript</title>
+    </head>
+<body>
+    <h2 style="text-align: center;">MAKERERE UNIVERSITY <br>
+    ACADEMIC REGISTRAR'S DEPARTMENT <br>
+    ADMISSION LIST <br>
+    DIRECT ENTRY-PRIVATE SPONSORSHIP FOR 2024/2025 ACADEMIC YEAR. <br>
+    </h2 >
+    
+
+    <script>
+       let student = { 
+
+name: "Kahumuza Munihizi Hillary",
+indexNumber: "U1223/687",
+district: "Kabe",
+courseName: "Bc.Accounting",
+totalWeight: "43.7"
+
+     };
+console.log(student); 
+
+let admissions = [
+{
+name: "Kahumuza Munihizi Hillary",
+indexNumber: "U1223/687",
+district: "Kabarole",
+courseName: "BSc. Accounting",
+totalWeight: "43.7"
+},
+
+{
+name: "Atuhaire Maurice",
+indexNumber: "U0859/919",
+district: "Kampala",
+courseName: "BSc.Accounting",
+totalWeight: "41.3"
+},
+{
+name: "Ssematimba Reagan",
+indexNumber: "U3941/595",
+district: "Kampala",
+courseName: "BSc. Accounting",
+totalWeight: "40"
+},
+{
+name: "Namyalo Hildah",
+indexNumber: "U267/518",
+district: "Mukono",
+courseName: "BSc. Accounting",
+totalWeight: "39.5"
+},
+{
+name: "Nakayiza Marietta C",
+indexNumber: "U0013/620",
+district: "Buikwe",
+courseName: "BSc. Accounting",
+totalWeight: "38.8"
+},
+{
+name: "Nakabugo Renitah",
+indexNumber: "U1688/542",
+district: "Kampala",
+courseName: "BSc. acounting",
+totalWeight: "38.7"
+},
+{
+    name: "Nakalembe Patience Esther",
+    indexNumber: "U2663/546", 
+    district: "Wakiso", 
+    courseName: "BSc. Accounting",
+    totalWeight: "38.4"
+},
+{ 
+    name: "Chance Arther",
+    indexNumber: "U1144/540", 
+    district: "Ntungamu",
+    courseName: "BSc. Accounting",
+    totalWeight: "37.6"
+},
+{ 
+    name: "Mugarura Samson",
+    indexNumber: "U0068/593",
+    district: "Mbarara",
+    courseName: "BSc. Accounting",
+    totalWeight: "37.2"
+},
+{
+    name: "Wasswa John V. Kagolo",
+    indexNumber: "U0048/993",
+    district: "Masaka",
+    courseName: "BSc. Accounting",
+    totalWeight: "37.2"
+},
+{
+    name: "Mugisha Adrian Emma", 
+    indexNumber: "U2789/562",
+    district: "Kampala",
+    courseName: "BSc. Accounting",
+    totalWeight: "37.1"
+},
+{
+     name: "Nanozzi Gladdy",
+     indexNumber: "U0852/504",
+     district: "",
+     courseName: "BSc. Accounting",
+     totalWeight: "36.7"
+},
+{
+    name: "Nalukenge Josephine",
+    indexNumber: "U1611/726",
+    district: "Kampala",
+    courseName: "BSc. Accounting",
+    totalWeight: "36.5"
+},
+{
+    name: "Mukyala Moureen",
+    indexNumber: "U0018/572",
+    district: "Jinja",
+    courseName: "BSc. Accounting",
+    totalWeight: "36.4"
+},
+{
+    name: "Amali Juliana",
+    indexNumber: "U0036/790",
+    district: "Tororo",
+    courseName: "BSc. Accounting",
+    totalWeight: "36.4"
+},
+{
+    name: "Giramia Racheal",
+    indexNumber: "U0036/562",
+    district: "Kampala",
+    courseName: "BSc. Accounting",
+    totalWeight: "36.3"
+},
+{
+    name: "Abucai Emmanuel",
+    indexNumber: "U0562/501",
+    district: "Apac",
+    courseName: "BSc. Accounting",
+    totalWeight: "36.1"
+},
+{
+    name: "Ssettumba Matthew",
+    indexNumber: "U0955/596",
+    district: "Kampala",
+    courseName: "BSc. Accounting",
+    totalWeight: "36"
+},
+{
+    name: "Sanya Juliana",
+    indexNumber: "U2728/501",
+    district: "Kampala",
+    courseName: "BSc. Accounting",
+    totalWeight: "35.9"
+},
+{
+    name: "Babirye Lillian",
+    indexNumber: "U1611/714",
+    district: "Iganga",
+    courseName: "BSc. Accounting",
+    totalWeight: "35.8"
+},
+{
+    name: "Namukose Fatuma Jannat",
+    indexNumber: "U0025/598",
+    district: "Kampala",
+    courseName: "BSc. Accounting",
+    totalWeight: "35.7"
+},
+{
+    name: "Okuda Daniel",
+    indexNumber: "U0334/662",
+    district: "Arua",
+    courseName: "BSc. Accounting",
+    totalWeight: "35.7"
+},
+{
+    name: "Nagawa Mima Shanitah",
+    indexNumber: "U2962/591",
+    district: "Jinja",
+    courseName: "BSc. Accounting",
+    totalWeight: "35.6"
+},
+{
+    name: "Namyalo Elizabeth",
+    indexNumber: "U0528/550",
+    district: "Wakiso",
+    courseName: "BSc. Accounting",
+    totalWeight: "35.3"
+},
+{
+    name: "Kirambo Rodney",
+    indexNumber: "U0041/832",
+    district: "Mukono",
+    courseName: "BSc. Accounting",
+    totalWeight: "35"
+},
+{
+    name: "Matovu Shaban",
+    indexNumber: "U2106/510",
+    district: "Wakiso",
+    courseName: "BSc. Accounting",
+    totalWeight: "34.9"
+},
+{
+    name: "Kato Davis",
+    indexNumber: "U1828",
+    district: "Bushenyi",
+    courseName: "BSc. Accounting",
+    totalWeight: "34.7"
+},
+{
+    name: "Niwakora Hope",
+    indexNumber: "U0083/574",
+    district: "Isingiro",
+    courseName: "BSc. Accounting",
+    totalWeight: "34.6"
+},
+{
+    name: "Nakabiito Daphine",
+    indexNumber: "U2163/552",
+    district: "Masaka",
+    courseName: "BSc. Accounting",
+    totalWeight: "34.6"
+},
+{
+    name: "Ampurira Macklyn Praise",
+    indexNumber: "U0801/545",
+    district: "Kampala",
+    courseName: "BSc. Accounting",
+    totalWeight: "34.6"
+},
+{
+    name: "Mutebi Ian",
+    indexNumber: "U3331/566",
+    district: "Kampala",
+    courseName: "BSc. Accounting",
+    totalWeight: "34.5"
+},
+{
+    name: "Mazziwa Florence",
+    indexNumber: "U2338/756",
+    district: "Kampala",
+    courseName: "BSc. Accounting",
+    totalWeight: "34.5"
+},
+{
+    name: "Kasozi Brasio",
+    indexNumber: "U0959/502",
+    district: "Busia",
+    courseName: "BSc. Accounting", 
+    totalWeight: "34.4"
+},
+{
+    name: "Rahma Muhammad",
+    indexNumber: "U0077/871",
+    district: "Kampala",
+    courseName: "BSc. Accounting",
+    totalWeight: "34.2"
+},
+{
+    name: "Kuteesa Monicah",
+    indexNumber: "U0041/562",
+    district: "Hoima",
+    courseName: "BSc. Accounting",
+    totalWeight: "34"
+},
+{
+    name: "Odongo Okune Alex Martin",
+    indexNumber: "U3859/675",
+    district: "Apac",
+    courseName: "BSc. Accounting",
+    totalWeight: "34"
+},
+{
+    name: "Atujuna John Vianny",
+    indexNumber: "U1342/652",
+    district: "Kabarole",
+    courseName: "BSc. Accounting",
+    totalWeight: "34"
+},
+{
+    name: "Ainemukama Richard",
+    indexNumber: "U2057/514",
+    district: "Bushenyi",
+    courseName: "BSc. Accounting",
+    totalWeight: "33.6"
+},
+{
+    name: "Khaukha Emmanuel",
+    indexNumber: "U0010/532",
+    district: "Mbale",
+    courseName: "BSc. Accounting",
+    totalWeight: "33.5"
+},
+{
+    name: "Nakimenya Tamia Gladys",
+    indexNumber: "U1758/542S",
+    district: "Kampala",
+    courseName: "BSc. Accounting",
+    totalWeight: "33.4"
+},
+{
+    name: "",
+    indexNumber: "",
+    district: "",
+    courseName: "BSc. Accounting",
+    totalWeight: "33.4"
+},
+
+]
+console.log(admissions);
+
+let newStudent = {
+    name: "Namuga Patience Esther",
+    indexNumber: "U2663/546",
+    district: "Wakiso",
+    courseName: "BSc. Accounting",
+    totalWeight: "38.4" 
+}
+admissions.push(newStudent);
+
+console.log("Updated admissions list:", admissions);
+
+let topStudent = admissions.reduce(function(prev,current){
+    return (prev.totalWeight>current.totalWeight)?prev : current
+});
+console.log("Top Student:",topStudent);
+
+let kampalaStudents = admissions.filter(function(student){
+    return student.district==="Kampala";
+});
+
+console.log("Students From Kampala:",kampalaStudents);
+
+localStorage.setItem("admissions", JSON.stringify(admissions));
+console.log("Admissions data saved!");
+
+let savedAdmissions = JSON.parse(localStorage.getItem("admissions"));
+ 
+console.log("Retrieved Admission Data:", savedAdmissions);
+    </script>
+</body>
+</html>

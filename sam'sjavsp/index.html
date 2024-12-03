@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Admission Data Visualization</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body class="bg-gray-50 p-8">
+
+    <div class="bg-pink-200 mx-auto mt-8 shadow-md rounded-md p-4 max-w-3xl">
+        <h1 class="text-3xl font-bold text-center text-blue-600">Student Admission Data Visualization</h1>
+
+    </div>
+    
+    <div id="chartContainer" class="max-w-3xl mx-auto mt-10 bg-green-100 shadow-md rounded-lg p-6">
+        <canvas id="admissionChart" class="w-full"></canvas>
+
+        <p class="text-center text-gray-600 mt-4">
+            This chart visualizes gender distribution among admitted students in the various 
+            Universities in Uganda.
+            </p>
+    </div>
+
+
+      
+        <div id="chartContainer" class="max-w-3xl mx-auto mt-10 bg-pink-100 shadow-md rounded-lg p-6">
+            <canvas id="districts" class="w-full"></canvas>
+
+            <p class="text-center text-gray-600 mt-4">
+                This chart visualizes the students per district. It displays all the districts
+                that contributed a student or more, to any of the Universities in Uganda.
+                </p>
+        </div>
+
+        <div id="chartContainer" class="max-w-3xl mx-auto mt-10 bg-blue-100 shadow-md rounded-lg p-6">
+            <canvas id="trending course" class="w-full"></canvas>
+
+            <p class="text-center text-gray-600 mt-4">
+                This chart visualizes the admission trends over the years.<br> 
+                Basically the range of 2000 up to 2023. 
+                these are the valid years in the dataset being visualized. 
+                </p> 
+        </div>
+
+        <div id="chartContainer" class="max-w-3xl mx-auto mt-10 bg-amber-100 shadow-md rounded-lg p-6">
+            <canvas id="popular course" class="w-full"></canvas>
+            
+            <p class="text-center text-gray-600 mt-4">
+            This chart visualizes the popular course.<br>
+            It simply shows the course that has been offered by the students in their degree of 
+            Numbers of students per course.
+            </p> 
+        </div>
+
+
+       
+       
+
+     </body>   
+    <script src="script.js"></script>
+
+</html>
